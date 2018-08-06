@@ -1,0 +1,3 @@
+CREATE DATABASE bancologin;
+USE bancologin;
+CREATE TABLE cadastro (id INT PRIMARY KEY AUTO_INCREMENT, senha CHAR (11)  NOT NULL, login VARCHAR (20) NOT NULL);
